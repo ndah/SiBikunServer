@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^bikun\.aquirkyquark\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bikun\.aquirkyquark\.com$
+RewriteRule ^/?$ "https\:\/\/bikun\.aquirkyquark\.com\/" [R=301,L]
+

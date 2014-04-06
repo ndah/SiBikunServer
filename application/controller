@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<FORM action="https://bikun.aquirkyquark.com/index.php/postdata" method="post">
+	<LABEL for="id">id </LABEL>
+		<INPUT type="number" step="0" id="id"><BR>
+	<LABEL for="rute">rute </LABEL>
+		<INPUT type="number" step="0" id="rute"><BR>
+	<LABEL for="lat">lat </LABEL>
+		<INPUT type="number" step="0.000001" id="lat"><BR>
+	<LABEL for="lng">lng </LABEL>
+		<INPUT type="number" step="0.000001" id="lng"><BR>
+	<LABEL for="radius">radius </LABEL>
+		<INPUT type="number" step="0.000001" id="radius"><BR>
+	<LABEL for="timestamp">timestamp </LABEL>
+		<INPUT type="datetime-local" id="timestamp"><BR>
+	<LABEL for="no_halte">no_halte </LABEL>
+		<INPUT type="number" step="0" id="no_halte"><BR>
+	<INPUT type="submit" value="Submit">
+</FORM>
+</body>
+</html>

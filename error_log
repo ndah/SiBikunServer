@@ -1,0 +1,27 @@
+[27-Feb-2014 23:51:35 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/aquirkyq/public_html/bikun/application/views/welcome_message.php on line 82
+[27-Feb-2014 23:54:25 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/aquirkyq/public_html/bikun/application/views/welcome_message.php on line 82
+[28-Feb-2014 00:02:06 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/aquirkyq/public_html/bikun/application/views/welcome_message.php on line 83
+[28-Feb-2014 00:04:15 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/aquirkyq/public_html/bikun/application/views/welcome_message.php on line 83
+[28-Feb-2014 00:05:25 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/aquirkyq/public_html/bikun/application/views/welcome_message.php on line 83
+[28-Feb-2014 00:06:03 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/aquirkyq/public_html/bikun/application/views/welcome_message.php on line 84
+[28-Feb-2014 00:08:21 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/aquirkyq/public_html/bikun/application/views/welcome_message.php on line 84
+[28-Feb-2014 00:08:23 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/aquirkyq/public_html/bikun/application/views/welcome_message.php on line 84
+[28-Feb-2014 00:08:44 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/aquirkyq/public_html/bikun/application/views/welcome_message.php on line 84
+[28-Feb-2014 00:09:07 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/aquirkyq/public_html/bikun/application/views/welcome_message.php on line 84
+[28-Feb-2014 00:09:10 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/aquirkyq/public_html/bikun/application/views/welcome_message.php on line 84
+[28-Feb-2014 00:09:58 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/aquirkyq/public_html/bikun/application/views/welcome_message.php on line 84
+[28-Feb-2014 00:10:56 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/aquirkyq/public_html/bikun/application/views/welcome_message.php on line 76
+[28-Feb-2014 00:20:33 America/Chicago] PHP Fatal error:  Call to a member function query() on a non-object in /home/aquirkyq/public_html/bikun/application/controllers/welcome.php on line 22
+[28-Feb-2014 00:22:22 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/aquirkyq/public_html/bikun/application/views/welcome_message.php on line 81
+[06-Apr-2014 02:49:03 America/Chicago] PHP Fatal error:  Call to undefined method location_history::_required() in /home/aquirkyq/public_html/pplb5/application/models/location_history.php on line 15
+[06-Apr-2014 02:49:27 America/Chicago] PHP Fatal error:  Call to undefined method location_history::_required() in /home/aquirkyq/public_html/pplb5/application/models/location_history.php on line 15
+[06-Apr-2014 03:17:07 America/Chicago] PHP Fatal error:  Call to undefined method location_history::_required() in /home/aquirkyq/public_html/pplb5/application/models/location_history.php on line 15
+[06-Apr-2014 03:20:37 America/Chicago] PHP Fatal error:  Call to undefined method location_history::_required() in /home/aquirkyq/public_html/pplb5/application/models/location_history.php on line 15
+[06-Apr-2014 03:21:59 America/Chicago] PHP Fatal error:  Call to undefined method location_history::_required() in /home/aquirkyq/public_html/pplb5/application/models/location_history.php on line 15
+[06-Apr-2014 03:24:18 America/Chicago] PHP Fatal error:  Call to undefined method location_history::_required() in /home/aquirkyq/public_html/pplb5/application/models/location_history.php on line 15
+[06-Apr-2014 03:28:23 America/Chicago] PHP Fatal error:  Call to undefined method location_history::_required() in /home/aquirkyq/public_html/pplb5/application/models/location_history.php on line 16
+[06-Apr-2014 04:53:42 America/Chicago] PHP Fatal error:  Call to undefined function datetime() in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 29
+[06-Apr-2014 04:54:27 America/Chicago] PHP Fatal error:  Call to undefined function datetime() in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 29
+[06-Apr-2014 04:54:30 America/Chicago] PHP Fatal error:  Call to undefined function datetime() in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 29
+[06-Apr-2014 04:55:10 America/Chicago] PHP Fatal error:  Call to undefined function datetime() in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 29
+[06-Apr-2014 06:04:27 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/startsession.php on line 9
