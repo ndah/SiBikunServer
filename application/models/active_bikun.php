@@ -10,9 +10,9 @@
 	        return $this->db->count_all('ActiveBikun');
 	    }
 
-	    function insert($data=array()){
+	    function insert($data){
 	    	$this->load->database();
-		$query = $this->db->get_where('ActiveBikun', $data["id"])
+		$query = $this->db->get_where('ActiveBikun', $data["id"]);
 		if($query->num_rows()){
 			return false;	    	
 	    	}

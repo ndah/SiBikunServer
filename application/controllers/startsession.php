@@ -6,6 +6,8 @@ class postdata extends CI_Controller {
 		$fromPost = $this->input->post();
 		if($this->active_bikun->update($fromPost)){
 		}else if ($this->active_bikun->insert($fromPost)){
-		}else {echo("Insert/update failed.")}
+		}else {
+			echo("Insert/update failed.");
+		}
 	}
 }

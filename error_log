@@ -25,3 +25,17 @@
 [06-Apr-2014 04:54:30 America/Chicago] PHP Fatal error:  Call to undefined function datetime() in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 29
 [06-Apr-2014 04:55:10 America/Chicago] PHP Fatal error:  Call to undefined function datetime() in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 29
 [06-Apr-2014 06:04:27 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/startsession.php on line 9
+[06-Apr-2014 06:32:58 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/startsession.php on line 9
+[06-Apr-2014 06:34:45 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/startsession.php on line 9
+[06-Apr-2014 08:48:35 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 24
+[06-Apr-2014 08:59:37 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 24
+[06-Apr-2014 09:03:08 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 24
+[06-Apr-2014 09:04:48 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 24
+[06-Apr-2014 09:06:50 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 26
+[06-Apr-2014 09:07:16 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 27
+[06-Apr-2014 09:07:33 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 27
+[06-Apr-2014 09:07:56 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 27
+[06-Apr-2014 09:09:54 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 27
+[06-Apr-2014 09:11:43 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 12
+[06-Apr-2014 09:16:08 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 13
+[06-Apr-2014 09:20:35 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 13

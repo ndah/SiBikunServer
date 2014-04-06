@@ -12,7 +12,7 @@
 
 	    function insert($data){
 	    	$this->load->database();
-	    	$query = $this->db->get_where('SiBikun', $data["id"])
+	    	$query = $this->db->get_where('SiBikun', $data["id"]);
 		if($query->num_rows()){
 			return false;	    	
 	    	}
@@ -22,8 +22,8 @@
 
 	    function update($data){
 		$this->load->database();
-		$to_be_updated = $data['id'];
-		unset($data['id']);
+		$to_be_updated = $data["id"];
+		unset($data["id"]);
 		
 	    	$this->db->where('id', $to_be_updated);
 	    	$this->db->update('SiBikun', $data);
