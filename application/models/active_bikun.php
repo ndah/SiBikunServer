@@ -1,5 +1,5 @@
 <?php 
-	class active_bikun	extends CI_Model{
+	class active_bikun extends CI_Model{
 		function __construct()
 	    {
 	        parent::__construct();
@@ -12,7 +12,7 @@
 
 	    function insert($data){
 	    	$this->load->database();
-		$query = $this->db->get_where('ActiveBikun', $data["id"]);
+		$query = $this->db->get_where('ActiveBikun', $data["driver"]);
 		if($query->num_rows()){
 			return false;	    	
 	    	}
@@ -20,22 +20,55 @@
 	    	return $this->db->insert_id();
 	    }
 
+	    function deactivate($data){
+		$this->load->database();
+		$driver = $data["driver"];
+  	    	$que = "UPDATE ActiveBikun SET bikun=\"0\" WHERE driver=\"".$driver."\"";
+	    	$query = $this->db->query($que);
+	    	return $this->db->affected_rows();
+	    }
+	    
+	    function activate($data){
+		$this->load->database();
+		$driver = $data["driver"];
+		$bikun = $data["bikun"];
+	    	$que = "UPDATE ActiveBikun SET bikun=\"".$bikun."\" WHERE driver=\"".$driver."\"";
+	    	$query = $this->db->query($que);
+	    	return $this->db->affected_rows();
+	    }
+	    
+	    function addLike($data){
+		$this->load->database();
+		$driver = $data["driver"];
+ 	    	$que = "UPDATE ActiveBikun SET likes=likes+1 WHERE driver='".$driver."'";
+	    	$query = $this->db->query($que);
+	    	return $this->db->affected_rows();
+	    }
+	    
+	    function removeLike($data){
+		$this->load->database();
+		$driver = $data["driver"];
+ 	    	$que = "UPDATE ActiveBikun SET likes=likes-1 WHERE driver='".$driver."'";
+	    	$query = $this->db->query($que);
+	    	return $this->db->affected_rows();
+	    }
+	    
 	    function update($data){
 		$this->load->database();
-		$to_be_updated = $data['id'];
-		unset($data['id']);
+		$to_be_updated = $data["driver"];
+		unset($data["driver"]);
 	    	
-	    	$this->db->where('id', $to_be_updated);
+	    	$this->db->where('driver', $to_be_updated);
 	    	$this->db->update('ActiveBikun', $data);
 	    	return $this->db->affected_rows();
 	    }
 
-	    function delete($id){
+	    function delete($driver){
 	    	$this->load->database();
-	    	if(!$id){
+	    	if(!$driver){
 	    		return false;
 	    	}
-	    	$this->db->where('id', $id);
+	    	$this->db->where('id', $driver);
 	    	$this->db->delete('ActiveBikun');
 	    	return $this->db->affected_rows();
 	    }
@@ -45,6 +78,19 @@
 	    	$this->load->database();
 	    	$query = $this->db->get('ActiveBikun');
 			return $query->result();
+	    }
+	    
+	    function getActiveBikun(){
+	    	$this->load->database();
+	    	$query = $this->db->query("SELECT bikun FROM ActiveBikun WHERE bikun>0");
+	    	$result = $query->result();
+	    	$returnValue = array();
+	    	var_dump($result);
+		foreach ($result as $object) {
+	    	    var_dump($object);
+   	            array_push($returnValue, $object->bikun);
+		}
+		return $returnValue;
 	    }
 	}
 ?>

@@ -39,3 +39,11 @@
 [06-Apr-2014 09:11:43 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 12
 [06-Apr-2014 09:16:08 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 13
 [06-Apr-2014 09:20:35 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 13
+[23-Apr-2014 07:29:05 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 8
+[23-Apr-2014 07:31:42 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 9
+[23-Apr-2014 07:32:43 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/aquirkyq/public_html/pplb5/application/controllers/postdata.php on line 10
+[23-Apr-2014 07:35:02 America/Chicago] PHP Parse error:  syntax error, unexpected $end in /home/aquirkyq/public_html/pplb5/application/models/active_bikun.php on line 89
+[23-Apr-2014 08:28:20 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/aquirkyq/public_html/pplb5/application/models/location_history.php on line 16
+[23-Apr-2014 08:29:44 America/Chicago] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/aquirkyq/public_html/pplb5/application/models/location_history.php on line 16
+[23-Apr-2014 08:38:03 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home/aquirkyq/public_html/pplb5/application/models/active_bikun.php on line 35
+[23-Apr-2014 08:38:42 America/Chicago] PHP Parse error:  syntax error, unexpected '"' in /home/aquirkyq/public_html/pplb5/application/models/active_bikun.php on line 35

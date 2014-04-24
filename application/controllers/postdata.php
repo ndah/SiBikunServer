@@ -2,11 +2,17 @@
 class postdata extends CI_Controller {
 
 	public function index(){
-		$this->load->model('location_history');
 		$fromPost = $this->input->post();
-		if($this->location_history->update($fromPost)){
-		}else if ($this->location_history->insert($fromPost)){
-		}else {echo("Insert/update failed.");
+		$this->load->model('active_bikun');
+		$active = $this->active_bikun->getActiveBikun();
+		if(in_array($fromPost["id"], $active, FALSE)){
+//			echo("Active.");
+			$this->load->model('location_history');
+			if($this->location_history->update($fromPost)){
+//				echo("Update.");
+			}else if ($this->location_history->insert($fromPost)){
+//				echo("Insert.");
+			}else {echo("Insert/update failed.");}
 		}
 	}
 }

@@ -12,8 +12,8 @@
 
 	    function insert($data){
 	    	$this->load->database();
-	    	$query = $this->db->get_where('SiBikun', $data["id"]);
-		if($query->num_rows()){
+	    	$query = $this->db->query("SELECT * FROM SiBikun WHERE id=".$data["id"]);
+		if($query->result()->num_rows()){
 			return false;	    	
 	    	}
     		$this->db->insert('SiBikun', $data);
